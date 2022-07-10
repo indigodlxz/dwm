@@ -93,9 +93,9 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
-	{ 0,              XF86XK_AudioRaiseVolume, spawn           {.v = upvol } }
-	{ 0,              XF86XK_AudioLowerVolume, spawn           {.v = downvol } }
-	{ 0,                     XF86XK_AudioMute, spawn           {.v = mutevol } }
+	{ 0,              XF86XK_AudioRaiseVolume, spawn,          {.v = upvol } },
+	{ 0,              XF86XK_AudioLowerVolume, spawn,          {.v = downvol } },
+	{ 0,                     XF86XK_AudioMute, spawn,          {.v = mutevol } },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
